@@ -40,7 +40,7 @@ const App = () => {
             <VideoDetail video={selectedVideo} />
           </div>
           <div className="five wide column">
-            <VideoList videosList={videos} onVideoSelect={onVideoSelect} />
+            <VideoList onVideoSelect={onVideoSelect} videosList={videos} />
           </div>
         </div>
       </div>
